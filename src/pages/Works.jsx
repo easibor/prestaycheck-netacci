@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { stepsData } from '../config/stepsData';
 
 const Works = () => {
   const sectionVariants = {
@@ -23,26 +24,7 @@ const Works = () => {
           How PreStayCheck Works
         </h2>
         <div className='grid grid-cols-1 gap-8 md:grid-cols-3'>
-          {[
-            {
-              step: 1,
-              title: 'Create Inventory',
-              description:
-                'Document all items in your property with descriptions and photos.',
-            },
-            {
-              step: 2,
-              title: 'Pre-stay Check',
-              description:
-                "Verify the condition of items before each guest's arrival.",
-            },
-            {
-              step: 3,
-              title: 'Post-stay Verification',
-              description:
-                "Confirm all items are present and undamaged after the guest's departure.",
-            },
-          ].map((step, index) => (
+          {stepsData?.map((step, index) => (
             <div key={index} className='bg-white p-8 rounded-lg shadow-sm'>
               <div className='text-2xl font-bold text-blue-600 mb-4'>
                 {step.step}

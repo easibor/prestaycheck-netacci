@@ -1,5 +1,5 @@
-import { Clipboard, Shield, CheckCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { featuresData } from '../config/featuresData';
 
 const Features = () => {
   const sectionVariants = {
@@ -30,26 +30,7 @@ const Features = () => {
 
         <div className='mt-20'>
           <div className='grid grid-cols-1 gap-16 md:grid-cols-3'>
-            {[
-              {
-                icon: Clipboard,
-                title: 'Detailed Inventory',
-                description:
-                  'Create and maintain a comprehensive list of all items in your property.',
-              },
-              {
-                icon: CheckCircle,
-                title: 'Check-in/Check-out Verification',
-                description:
-                  'Easily verify the condition and presence of items before and after each stay.',
-              },
-              {
-                icon: Shield,
-                title: 'Damage Documentation',
-                description:
-                  'Record and report any damages with photo evidence and timestamps.',
-              },
-            ].map((feature, index) => (
+            {featuresData?.map((feature, index) => (
               <div key={index} className='flex flex-col items-center'>
                 <div className='flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 text-blue-600'>
                   <feature.icon className='h-8 w-8' />
