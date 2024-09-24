@@ -26,7 +26,8 @@ const Hero = () => {
           <div className='mt-10 sm:flex sm:justify-center'>
             <div className='rounded-full shadow'>
               <a
-                href='#'
+                href='https://docs.google.com/forms/d/e/1FAIpQLSdOlrW0ii9IGDRnCOXSQ8Kkie9j1spjTBnHiIrCOKp5jxPHSA/viewform'
+                target='_blank'
                 className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10'
               >
                 Join the waitlist

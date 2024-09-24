@@ -1,20 +1,18 @@
 export const stepsData = [
   {
     step: 1,
-    title: 'Create Inventory',
+    title: 'Setup Inventory',
     description:
       'Document all items in your property with descriptions and photos.',
   },
   {
     step: 2,
     title: 'Pre-stay Check',
-    description:
-      "Verify the condition of items before each guest's arrival with timestamps.",
+    description: 'Run AI-Powered pre=stay check and send proof to guest.',
   },
   {
     step: 3,
     title: 'Post-stay Verification',
-    description:
-      "Confirm all items are present and undamaged after the guest's departure.",
+    description: 'Run AI-Powered post-stay check and send out final report.',
   },
 ];

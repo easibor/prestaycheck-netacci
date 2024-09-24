@@ -35,7 +35,7 @@ const Features = () => {
                 <div className='flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 text-blue-600'>
                   <feature.icon className='h-8 w-8' />
                 </div>
-                <h3 className='mt-6 text-xl font-medium text-gray-900'>
+                <h3 className='mt-6 text-xl font-medium text-gray-90 text-center'>
                   {feature.title}
                 </h3>
                 <p className='mt-2 text-base text-gray-500 text-center'>

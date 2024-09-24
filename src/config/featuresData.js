@@ -9,14 +9,14 @@ export const featuresData = [
   },
   {
     icon: CheckCircle,
-    title: 'Check-in/Check-out Verification',
+    title: 'AI-Powered Check-in/Check-out Verification',
     description:
       'Easily verify the condition and presence of items before and after each stay.',
   },
   {
     icon: Shield,
-    title: 'Damage Documentation',
+    title: 'Fully Automated',
     description:
-      'Record and report any damages with photo evidence and timestamps.',
+      'Automatically pull your reservations from airbnb, VRBO, Booking.com, Agoda and others.',
   },
 ];
