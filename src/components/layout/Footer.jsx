@@ -44,7 +44,7 @@ const Footer = () => {
             <ul className='mt-4 space-y-4'>
               <li>
                 <a
-                  href='#'
+                  href={ROUTES.features}
                   className='text-base text-gray-300 hover:text-white'
                 >
                   Features
