@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Logo from '../../assets/loggo.svg';
+import { ROUTES } from '../../utils/routes';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,6 +19,18 @@ const Navbar = () => {
           </div>
           <div className='hidden md:flex items-center space-x-8'>
             <a
+              href={ROUTES.home}
+              className='text-gray-600 hover:text-blue-600 font-medium'
+            >
+              Home
+            </a>
+            <a
+              href={ROUTES.about}
+              className='text-gray-600 hover:text-blue-600 font-medium'
+            >
+              About
+            </a>
+            <a
               href='#features'
               className='text-gray-600 hover:text-blue-600 font-medium'
             >
@@ -28,6 +41,12 @@ const Navbar = () => {
               className='text-gray-600 hover:text-blue-600 font-medium'
             >
               How It Works
+            </a>
+            <a
+              href={ROUTES.faq}
+              className='text-gray-600 hover:text-blue-600 font-medium'
+            >
+              FAQ
             </a>
             <button
               onClick={handleOpen}
@@ -55,6 +74,12 @@ const Navbar = () => {
         <div className='md:hidden bg-white border-t border-gray-200'>
           <div className='px-2 pt-2 pb-3 space-y-1'>
             <a
+              href={ROUTES.about}
+              className='block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium'
+            >
+              About
+            </a>
+            <a
               href='#features'
               className='block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium'
             >
@@ -65,6 +90,12 @@ const Navbar = () => {
               className='block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium'
             >
               How It Works
+            </a>
+            <a
+              href={ROUTES.faq}
+              className='block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium'
+            >
+              FAQ
             </a>
             <button className='mt-2 w-full px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2'>
               Join waitlist

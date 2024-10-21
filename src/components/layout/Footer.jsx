@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { ROUTES } from '../../utils/routes';
 
 const Footer = () => {
   return (
@@ -12,23 +13,23 @@ const Footer = () => {
             <ul className='mt-4 space-y-4'>
               <li>
                 <a
-                  href='#'
+                  href={ROUTES.about}
                   className='text-base text-gray-300 hover:text-white'
                 >
                   About
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href='#'
                   className='text-base text-gray-300 hover:text-white'
                 >
                   Careers
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
-                  href='#'
+                  href={ROUTES.contact}
                   className='text-base text-gray-300 hover:text-white'
                 >
                   Contact
@@ -49,17 +50,17 @@ const Footer = () => {
                   Features
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href='#'
                   className='text-base text-gray-300 hover:text-white'
                 >
                   Pricing
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
-                  href='#'
+                  href={ROUTES.faq}
                   className='text-base text-gray-300 hover:text-white'
                 >
                   FAQ
@@ -74,23 +75,15 @@ const Footer = () => {
             <ul className='mt-4 space-y-4'>
               <li>
                 <a
-                  href='#'
+                  href={ROUTES.privacy}
                   className='text-base text-gray-300 hover:text-white'
                 >
-                  Blog
+                  Privacy Policy
                 </a>
               </li>
               <li>
                 <a
-                  href='#'
-                  className='text-base text-gray-300 hover:text-white'
-                >
-                  Support
-                </a>
-              </li>
-              <li>
-                <a
-                  href='#'
+                  href={ROUTES.terms}
                   className='text-base text-gray-300 hover:text-white'
                 >
                   Terms of Service
@@ -118,15 +111,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between'>
-          <div className='flex space-x-6 md:order-2'>
-            <a href='#' className='text-gray-400 hover:text-white'>
-              Privacy Policy
-            </a>
-            <a href='#' className='text-gray-400 hover:text-white'>
-              Cookie Policy
-            </a>
-          </div>
+        <div className='mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-center'>
           <p className='mt-8 text-base text-gray-400 md:mt-0 md:order-1'>
             &copy; 2024 PreStayCheck. All rights reserved.
           </p>
