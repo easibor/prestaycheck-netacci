@@ -47,15 +47,13 @@ const About = () => {
               Our Story
             </h2>
             <p className='text-gray-600 mb-4'>
-              Founded in 2020, our company was born out of a passion for
-              innovation and a desire to make a difference. We&apos;ve grown
-              from a small startup to a dynamic team of professionals, all
-              united by our commitment to excellence.
-            </p>
-            <p className='text-gray-600'>
-              Today, we continue to push boundaries and explore new horizons,
-              always with our clients&apos; needs at the heart of everything we
-              do.
+              PreStayCheck was born in Canada, crafted by experienced Airbnb
+              hosts who understand the challenges of managing vacation rentals
+              firsthand. With over four years of hosting under our belt, we set
+              out to build a tool that empowers property owners to stay
+              organized and avoid disputes. Backed by a team of passionate
+              professionals, we&apos;re dedicated to making hosting smoother,
+              more transparent, and stress-free.
             </p>
           </div>
 
@@ -73,11 +71,15 @@ const About = () => {
             <div className='bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center'>
               <Target className='w-12 h-12 text-blue-600 mb-4' />
               <h3 className='text-xl font-semibold text-gray-800 mb-2'>
-                Our Mission
+                Mission Statement
               </h3>
               <p className='text-gray-600'>
-                To empower businesses with innovative solutions that drive
-                growth and success.
+                Our mission at PreStayCheck is to empower vacation rental hosts
+                with seamless tools that enhance transparency, prevent disputes,
+                and simplify property management. We are committed to fostering
+                trust between hosts and guests through detailed, time-stamped
+                inventories, helping create smooth and worry-free hosting
+                experiences for all.
               </p>
             </div>
             <div className='bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center'>
@@ -86,8 +88,12 @@ const About = () => {
                 Our Values
               </h3>
               <p className='text-gray-600'>
-                Integrity, innovation, and customer-centricity guide everything
-                we do.
+                We value transparency, excellence, and innovation, delivering
+                high-quality solutions that simplify property management for
+                hosts. With integrity and a customer-first mindset, we design
+                tools that address real challenges. Collaboration is at the
+                heart of our mission, ensuring great outcomes through teamwork
+                and trust.
               </p>
             </div>
           </div>

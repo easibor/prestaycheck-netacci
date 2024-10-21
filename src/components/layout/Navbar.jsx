@@ -31,13 +31,13 @@ const Navbar = () => {
               About
             </a>
             <a
-              href='#features'
+              href={ROUTES.features}
               className='text-gray-600 hover:text-blue-600 font-medium'
             >
               Features
             </a>
             <a
-              href='#how-it-works'
+              href={ROUTES.hiw}
               className='text-gray-600 hover:text-blue-600 font-medium'
             >
               How It Works
@@ -80,13 +80,13 @@ const Navbar = () => {
               About
             </a>
             <a
-              href='#features'
+              href={ROUTES.features}
               className='block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium'
             >
               Features
             </a>
             <a
-              href='#how-it-works'
+              href={ROUTES.hiw}
               className='block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium'
             >
               How It Works

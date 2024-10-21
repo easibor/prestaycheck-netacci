@@ -20,7 +20,7 @@ const Hero = () => {
             </span>
           </motion.h1>
           <p className='mt-8 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-10 md:text-xl md:max-w-3xl'>
-            PreStayCheck helps Airbnb hosts and property managers document and
+            PreStayCheck helps Vacation Rental property owners document and
             verify items before and after guest check-ins. Never worry about
             missing items again.
           </p>

@@ -3,60 +3,98 @@ export const faqData = [
     id: 1,
     question: 'What is PreStayCheck?',
     answer:
-      "PreStayCheck is an app designed for Airbnb hosts and property managers to document and verify items before and after guest check-ins. It helps ensure that property conditions are properly documented and nothing is missing after a guest's stay.",
+      'PreStayCheck is a tool designed to help vacation rental owners manage their properties by generating time-stamped images and detailed inventories of furnishings and spaces. This helps prevent disputes over damages or missing items by ensuring transparency with guests before and during their stay.',
   },
   {
     id: 2,
-    question: 'How does PreStayCheck work?',
+    question: 'How does PreStayCheck prevent disputes with guests?',
     answer:
-      'Hosts upload images of their property before a guest arrives. The guest verifies these images before signing a contract of stay. After the guest leaves, the same images are verified again to ensure no items are missing or damaged.',
+      'The platform allows owners to create time-stamped inventories with photos and descriptions of property items. These are shared with guests before check-in, ensuring both parties agree on the state of the property, minimizing misunderstandings about damages or missing items at checkout.',
   },
   {
     id: 3,
-    question: 'Do I need to create an account to use PreStayCheck?',
+    question: 'What are “Spaces” in the context of PreStayCheck?',
     answer:
-      'Yes, you must sign up and create an account to use PreStayCheck. This allows you to upload property images, manage your properties, and track the verification process for each guest.',
+      'Spaces refer to individual areas inside your rental property, such as the living room, kitchen, or bedrooms. You can manage and list furnishings within each space separately to ensure all items are properly accounted for.',
   },
   {
     id: 4,
-    question: 'Can guests see all the images I upload?',
+    question: 'What are “Furnishing Items”?',
     answer:
-      'Yes, the images you upload are visible to the guest before their stay. This allows them to verify the condition of the property before signing a contract.',
+      'Furnishing items are objects within a space that you want to include in your inventory. Examples include furniture, electronics, decorations, and appliances—like a television, coffee table, or flower vase. These items are documented with descriptions and time-stamped photos',
   },
   {
     id: 5,
-    question: 'What happens if an item goes missing?',
+    question: 'Can I manage multiple properties using PreStayCheck?',
     answer:
-      'If an item is missing after the guest checks out, you can use the verified images from PreStayCheck to document and report the issue. This process helps ensure that property conditions are clear before and after the stay.',
+      'Yes, PreStayCheck supports multiple property management. You can create separate inventories and lists for each property, keeping everything organized under a single dashboard.',
   },
   {
     id: 6,
-    question: 'How are my images stored?',
+    question:
+      'How does the platform integrate with booking systems like Airbnb or Booking.com?',
     answer:
-      'Your images are securely stored on PreStayCheck’s servers. We implement strict security measures to ensure your data is protected from unauthorized access.',
+      'PreStayCheck integrates seamlessly with major booking platforms via iCal, allowing you to sync bookings across Airbnb, Booking.com, Vrbo, and others. This ensures that check-in and inventory processes align with your booking schedules.',
   },
   {
     id: 7,
-    question: 'Is there a limit to the number of properties I can manage?',
+    question: 'Can I customize the descriptions of items in the inventory?',
     answer:
-      'PreStayCheck allows you to manage multiple properties within your account. There may be certain limits depending on your subscription plan, so be sure to check the details of your account for more information.',
+      'Yes, you can customize item descriptions to include details such as size, color, model, and condition. Providing detailed information helps guests understand the state of the property and reduces the likelihood of disputes.',
   },
   {
     id: 8,
-    question: 'Can I delete images after the guest leaves?',
+    question: 'How does the photo time-stamping feature work?',
     answer:
-      'Yes, once the guest has left and the verification process is complete, you can choose to delete the images or retain them for your records.',
+      "When you take photos through PreStayCheck, the platform automatically adds a time and date stamp. This ensures there’s clear evidence of the property's condition at the time of documentation, which can be used for reference in case of any issues.",
   },
   {
     id: 9,
-    question: 'How do I contact support?',
+    question: 'Can I share the inventory with my guests?',
     answer:
-      'If you need any assistance, you can reach out to our support team at support@prestaycheck.com. We are happy to help with any questions or issues you may have.',
+      'Yes, once the inventory is created, you can share it with your guests via email or a link. This helps both parties agree on the state of the property at check-in, reducing misunderstandings at checkout.',
   },
   {
     id: 10,
-    question: 'Is PreStayCheck free to use?',
+    question: 'Can I add or update items after the inventory is created?',
     answer:
-      'PreStayCheck offers a free version with basic features. For additional functionality, such as managing multiple properties or advanced verification tools, you may need to subscribe to one of our premium plans.',
+      'Yes, you can easily update the inventory by adding new items or editing existing ones. The updated inventory will also have new time-stamps, so everything stays documented and transparent.',
+  },
+  {
+    id: 11,
+    question:
+      'What happens if I forget to create or update the inventory before a guest checks in?',
+    answer:
+      'We recommend setting up your inventory before each check-in to avoid any confusion. However, you can still create or update the inventory during the guest’s stay if needed. Just make sure to notify the guest of any changes.',
+  },
+  {
+    id: 12,
+    question: 'Can staff members use the platform too?',
+    answer:
+      'Yes, PreStayCheck allows you to register and manage staff accounts. Staff can help create inventories, update listings, and manage spaces directly through the platform.',
+  },
+  {
+    id: 13,
+    question: 'Is there a mobile version of PreStayCheck?',
+    answer:
+      'Yes, PreStayCheck is optimized for both desktop and mobile use, making it easy to manage your properties on the go.',
+  },
+  {
+    id: 14,
+    question: 'What if I need help using the platform?',
+    answer:
+      'We offer detailed tutorials and customer support to assist you. You can reach out to our support team via chat, email, or phone for any assistance you need.',
+  },
+  {
+    id: 15,
+    question: 'Is my data secure on PreStayCheck?',
+    answer:
+      'Yes, we take data security seriously. All your property information, inventories, and photos are stored securely with encryption to protect your privacy and sensitive information.',
+  },
+  {
+    id: 16,
+    question: 'How are my time-stamped inventories sent to my guests?',
+    answer:
+      'After integration with major booking platforms, your timestamped inventories are automatically sent out to upcoming guests.',
   },
 ];
