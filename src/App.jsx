@@ -66,7 +66,14 @@ const App = () => {
           </Suspense>
         }
       />
-      <Route path='*' element={<Home />} />
+      <Route
+        path='*'
+        element={
+          <Suspense fallback={<Loader />}>
+            <Home />
+          </Suspense>
+        }
+      />
     </Routes>
   );
 };

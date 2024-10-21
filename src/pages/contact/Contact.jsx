@@ -40,19 +40,19 @@ const Contact = () => {
             <ContactMethod
               icon={Mail}
               title='Email'
-              content='info@example.com'
-              link='mailto:info@example.com'
+              content='info@prestaycheck.ca'
+              link='mailto:info@prestaycheck.ca'
             />
             <ContactMethod
               icon={Phone}
               title='Phone'
-              content='+1 (123) 456-7890'
-              link='tel:+11234567890'
+              content='+1 (289)-885-7879'
+              link='tel:+12898857879'
             />
             <ContactMethod
               icon={MapPin}
               title='Address'
-              content='123 Business Street, Suite 100, City, State 12345'
+              content='73 Water Street North, Suite 300 Cambridge, ON N1R 7L6'
             />
             {/* <ContactMethod
               icon={Clock}
