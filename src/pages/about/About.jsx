@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 import Layout from '../../components/layout/Layout';
 
 import { Users, Target, Award } from 'lucide-react';
