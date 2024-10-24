@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Twitter, Instagram } from 'lucide-react';
 import { ROUTES } from '../../utils/routes';
 
 const Footer = () => {
@@ -96,18 +96,24 @@ const Footer = () => {
               Follow Us
             </h3>
             <div className='flex space-x-6 mt-4'>
-              <a href='#' className='text-gray-400 hover:text-white'>
+              {/* <a href='#' className='text-gray-400 hover:text-white'>
                 <Facebook size={24} />
-              </a>
-              <a href='#' className='text-gray-400 hover:text-white'>
+              </a> */}
+              <a
+                href='https://twitter.com/prestaycheck'
+                className='text-gray-400 hover:text-white'
+              >
                 <Twitter size={24} />
               </a>
-              <a href='#' className='text-gray-400 hover:text-white'>
+              <a
+                href='https://instagram.com/prestaycheck'
+                className='text-gray-400 hover:text-white'
+              >
                 <Instagram size={24} />
               </a>
-              <a href='#' className='text-gray-400 hover:text-white'>
+              {/* <a href='#' className='text-gray-400 hover:text-white'>
                 <Linkedin size={24} />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
