@@ -74,6 +74,12 @@ const Navbar = () => {
         <div className='md:hidden bg-white border-t border-gray-200'>
           <div className='px-2 pt-2 pb-3 space-y-1'>
             <a
+              href={ROUTES.home}
+              className='block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium'
+            >
+              Home
+            </a>
+            <a
               href={ROUTES.about}
               className='block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium'
             >
