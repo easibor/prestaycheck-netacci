@@ -53,6 +53,21 @@ const About = () => {
               professionals, we&apos;re dedicated to making hosting smoother,
               more transparent, and stress-free.
             </p>
+            <h2 className='text-3xl font-semibold text-gray-800 my-6'>
+              The Company
+            </h2>
+            <p className='text-gray-600 mb-4'>
+              PreStayCheck is owned and Managed by Adblabla Technologies
+              Incorporated , a legal entity registered in Ontario, Canada since
+              May 2023. For direct all enquiries meant for our corporate
+              head-office to{' '}
+              <a
+                className='text-blue-600'
+                href='mailto:corporate@prestaycheck.ca'
+              >
+                corporate@prestaycheck.ca
+              </a>
+            </p>
           </div>
 
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mb-12'>

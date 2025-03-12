@@ -3,7 +3,7 @@ import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import Layout from '../../components/layout/Layout';
 
-const ContactMethod = ({ icon, title, content, link }) => (
+const ContactMethod = ({ icon, title, content, link, content2 }) => (
   <div className='flex items-start p-4 bg-white rounded-lg shadow-md'>
     {React.createElement(icon, {
       className: 'w-6 h-6 text-blue-600 mr-4 mt-1 flex-shrink-0',
@@ -15,7 +15,10 @@ const ContactMethod = ({ icon, title, content, link }) => (
           {content}
         </a>
       ) : (
-        <p className='text-gray-600'>{content}</p>
+        <>
+          <p className='text-gray-600 mb-2'>{content}</p>
+          {content2 && <p className='text-gray-600 mb-2'>{content2}</p>}
+        </>
       )}
     </div>
   </div>
@@ -53,6 +56,9 @@ const Contact = () => {
               icon={MapPin}
               title='Address'
               content='73 Water Street North, Suite 300 Cambridge, ON N1R 7L6'
+              content2='22 June Callwood Way,
+              Brantford, Ontario
+              N3T 0T7'
             />
             {/* <ContactMethod
               icon={Clock}
